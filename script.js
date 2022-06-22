@@ -21,7 +21,7 @@ color2.addEventListener("input", setGradient);
 //Generates a random color
 function randomColorGenerator() {
   let n = (Math.random() * 0xfffff * 1000000).toString(16);
-  var randomColor = "#" + n.slice(0, 6);
+  let randomColor = "#" + n.slice(0, 6);
   return randomColor;
 }
 
